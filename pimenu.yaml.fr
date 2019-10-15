@@ -1,0 +1,68 @@
+# Menu-Setup.
+#
+# name and label are required for each item
+# color and icon are optional
+# only gifs (48x48) are supported
+#
+---
+      -
+        name : "radio"
+        label: "Radio"
+        icon : "shield"
+        items:
+          -
+            name : "oldies"
+            label: "Oldies"
+            icon : "grave"
+          -
+            name : "relax"
+            label: "Relax"
+            icon : "marvel.shield"
+          -
+            name : "fip"
+            label: "Fip"
+            icon : "shield.alert"
+          -
+            name : "fip_rock"
+            label: "Rock"
+            icon : "ambulance"
+          -
+            name : "fip_jazz"
+            label: "Jazz"
+            icon : "medical"
+          -
+            name : "fip_groove"
+            label: "Groove"
+            icon : "share.open"
+          -
+            name : "fip_reggae"
+            label: "Reggae"
+            icon : "home"
+          -
+            name : "wdr2"
+            label: "WDR 2"
+            icon : "share.open"
+          -
+            name : "wdr4"
+            label: "WDR 4"
+            icon : "home"
+
+      -
+        name : "3miles"
+        label: "3 Miles"
+        icon : "money"
+      -
+        name : "wz_licht"
+        label: "Wohnzimmer Licht"
+        icon : "clothes.tie"
+      -
+        name : "slideshow"
+        label: "Bildschirm Schoner"
+      -
+        name : "meteo"
+        label: "Temperaturen"
+        icon : "invoice"
+      -
+        name : "wetter"
+        label: "Wetter"
+        icon : "home"

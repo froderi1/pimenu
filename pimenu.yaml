@@ -1,0 +1,54 @@
+# Menu-Setup.
+#
+# name and label are required for each item
+# color and icon are optional
+# only gifs (48x48) are supported
+#
+#        color: "#00a300"
+---
+      -
+        name : oldies
+        label: "Oldies"
+      -
+        name : relax
+        label: "Relax"
+      -
+        name : fip
+        label: "Fip"
+      -
+        name : jazz
+        label: "Jazz"
+      -
+        name : xmas
+        label: "WNIC"
+        color: "#00a300"
+        icon : "tree.pine.gif"
+      -
+        name : meteo
+        label: "Klima"
+      -
+        name : walzer
+        label: "sylvester"
+      -
+        name : wdr2
+        label: "WDR 2"
+      -
+        name : wdr4
+        label: "WDR 4"
+      -
+        name : radio_off
+        label: "Musik aus"
+      -
+        name : 3miles
+        label: "3 Miles"
+      -
+        name : pause
+        label: "Pause"
+        color: "#ce281f"
+        icon : "stop.gif"
+      -
+        name : licht_kugel_klein
+        label: "Licht"
+      -
+        name : slideshow
+        label: "Bilder"
