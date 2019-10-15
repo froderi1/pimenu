@@ -22,6 +22,7 @@ class FlatButton(Button):
             fg="white",
             activebackground="#b91d47",  # dark-red
             activeforeground="white",
+            font=('Sans', 22),
             highlightthickness=0
         )
 
@@ -129,7 +130,7 @@ class PiMenu(Frame):
             btn = FlatButton(
                 wrap,
                 text=item['label'],
-                image=image
+#                image=image
             )
 
             if 'items' in item:
@@ -219,11 +220,11 @@ class PiMenu(Frame):
 
         # excute shell script
         subprocess.call([self.path + '/pimenu.sh'] + actions)
-
         # remove delay screen and show menu again
         delay.destroy()
         self.destroy_all()
         self.show_top()
+        self.initialize()
 
     def go_back(self):
         """
@@ -240,7 +241,8 @@ class PiMenu(Frame):
 
 def main():
     root = Tk()
-    root.geometry("320x240")
+#    root.geometry("320x240")
+    root.geometry("800x480")
     root.wm_title('PiMenu')
     if len(sys.argv) > 1 and sys.argv[1] == 'fs':
         root.wm_attributes('-fullscreen', True)
